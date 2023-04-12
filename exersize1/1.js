@@ -4,7 +4,6 @@
 //с текстом (пример): Цельсий: 21, Фаренгейт: 69.8
 
 const firstNum = Number.parseFloat(prompt("Введите температуру в градусах Цельсия :"));
-const secondNum = Number.parseFloat((firstNum*(9/5)) + 32);
 alert(`Цельсий: ${firstNum}, Фаренгейт: ${((firstNum*(9/5)) + 32).toFixed(0)}`);
 
 
